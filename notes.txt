@@ -1,0 +1,169 @@
+Registering a DataFrame as a ________ view allows you to run SQL queries over its data.
+
+Temporary
+
+Permanent
+------------------------------------
+Which among the following is an example of Transformation?
+
+groupByKey([numPartitions])
+
+collect()
+
+take(n)
+
+count()
+------------------------------------
+External tables are used to store data outside the _______
+
+Spark
+
+Hive
+
+HDFS
+------------------------------------
+For counting the number of rows of DataFrame, we can make use of _________
+
+df.rowcount()
+
+df.count()
+
+df.rowCount()
+
+df.count
+------------------------------------
+Question Type: Single-Select
+Which among the following is a/are feature(s) of DataFrames?
+
+Distributed
+
+Lazy Evals
+
+Immutable
+
+All the options
+------------------------------------
+DataFrame is data organized into ______ columns.
+
+Named
+
+Random
+------------------------------------
+One can invoke PySpark Shell by running the ________ command in Shell.
+
+./bin/pyspark
+
+./bin/spark-shell
+------------------------------------
+According to Spark advocates, how faster can Apache Spark potentially run batch-processing
+programs when processed in memory than MapReduce can?
+
+50 times
+
+10 times
+
+100 times
+
+20 times
+------------------------------------
+How to create a table in Hive warehouse programatically from Spark?
+
+spark.sql("CREATE TABLE IF NOT EXISTS table_name(column_name_1 DataType,column_name_2 DataType,......,column_name_n DataType) USING Apache hive")
+
+spark.sql("CREATE A TABLE IF NOT EXISTS table_name(column_name_1 DataType,column_name_2 DataType,......,column_name_n DataType) USING hivewarehouse")
+
+spark.sql("CREATE TABLE IF NOT EXISTS table_name(column_name_1 DataType,column_name_2 DataType,......,column_name_n DataType) USING hive")
+------------------------------------
+Which among the following is an example of Action?
+
+foreach(func)
+
+union()
+
+cartesian()
+
+map(func)
+------------------------------------
+Correlation refers to ________
+
+causal relationship between two variables.
+
+a statistical method that can only be used with a correlational research design
+
+association between two variables.
+------------------------------------
+The schema of loaded DataFrame df can be checked using _________
+
+df.show()
+
+df.print()
+
+df.printSchema()
+
+df.printschema()
+------------------------------------
+Parallelized collections are created by calling SparkContext’s parallelize
+method on an existing iterable or collection in driver program.
+
+True
+
+False
+------------------------------------
+PySpark is built on top of Spark's Java API.
+
+True
+
+False
+------------------------------------
+Apache HBase is a non-relational database modeled after Google’s _________
+
+Scaner
+
+BigTable
+
+BigTop
+------------------------------------
+Spark SQL does not provide support for both reading and writing Parquet files.
+
+False
+
+True
+------------------------------------
+Spark SQL can read and write data from Hive Tables.
+
+False
+
+True
+------------------------------------
+In case of External Tables, data needs to remain in the underlying location even after the user drops the table.
+
+True
+
+False
+------------------------------------
+We cannot pass SQL queries directly to any DataFrame.
+
+True
+
+False
+------------------------------------
+Which of the following can be used to launch Spark jobs inside MapReduce ?
+
+SIMR
+
+SIM
+
+RIS
+
+SIR
+
+
+
+
+
+
+
+
+
+
+

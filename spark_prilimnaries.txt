@@ -1,0 +1,13 @@
+Question Type: Single-Select
+The following are characteristics shared by Hadoop and Spark, except ___________
+
+Both use open source APIs to link between different tools
+
+Both are data processing platforms
+
+Both are cluster computing environments
+
+Both have their own file system
+------------------------------------
+
+

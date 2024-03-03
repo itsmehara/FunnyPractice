@@ -6,6 +6,8 @@ __pycache__/
 *.parquet
 _SUCCESS
 ._SUCCESS.crc
+part-*
+.part-*
 # C extensions
 *.so
 .idea/

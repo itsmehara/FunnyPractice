@@ -31,3 +31,4 @@ items = ["milk", "bread", "butter", "apples", "oranges"]
 twocol_df = spark.createDataFrame([(names[i % 3], items[i % 5]) for i in range(100)], ["name", "item"])
 
 twocol_df.stat.crosstab("name", "item").show()
+print(twocol_df.count(), twocol_df.count)

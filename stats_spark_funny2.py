@@ -39,6 +39,10 @@ try:
     output_path = "Result"
     summary_df.write.mode("overwrite").csv(output_path, header=True)
 
+    summary_df.stat.crosstab("Stats", "Value").show()
+    summary_df.printSchema()
+    print(summary_df.count(), "------------>")
+
 except Exception as e:
     print("An error occurred:", str(e))
 
